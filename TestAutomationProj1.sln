@@ -5,11 +5,17 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutomationProj1", "TestAutomationProj1\TestAutomationProj1.csproj", "{E9CC9F44-E664-4DE7-875C-0C6FF90FC508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowDemo", "SpecFlowDemo\SpecFlowDemo.csproj", "{59A9B3FE-8436-4B50-89B3-21BF06773EF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowDemo", "SpecFlowDemo\SpecFlowDemo.csproj", "{59A9B3FE-8436-4B50-89B3-21BF06773EF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPectFlowDemo2", "SPectFlowDemo2\SPectFlowDemo2.csproj", "{8DFFCF91-DC12-4583-A692-F8A5665B0398}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowDemoUnitTests", "SpecFlowDemoUnitTests\SpecFlowDemoUnitTests.csproj", "{459254B8-70A6-48E6-9874-CCB34BC73A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAutomatedMAQS", "UnitTestAutomatedMAQS\UnitTestAutomatedMAQS.csproj", "{B52AA7B8-D7F5-41C9-9B1A-AFEBA6F38F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageModel", "MAqsSeleniumTest\PageModel\PageModel.csproj", "{570766B2-DF9A-4964-B1D1-C9A4E761AEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "MAqsSeleniumTest\Tests\Tests.csproj", "{FAFA2693-8383-4F54-B0D6-B43C2CDF231D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{459254B8-70A6-48E6-9874-CCB34BC73A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{459254B8-70A6-48E6-9874-CCB34BC73A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{459254B8-70A6-48E6-9874-CCB34BC73A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52AA7B8-D7F5-41C9-9B1A-AFEBA6F38F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52AA7B8-D7F5-41C9-9B1A-AFEBA6F38F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52AA7B8-D7F5-41C9-9B1A-AFEBA6F38F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52AA7B8-D7F5-41C9-9B1A-AFEBA6F38F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570766B2-DF9A-4964-B1D1-C9A4E761AEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570766B2-DF9A-4964-B1D1-C9A4E761AEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570766B2-DF9A-4964-B1D1-C9A4E761AEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570766B2-DF9A-4964-B1D1-C9A4E761AEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFA2693-8383-4F54-B0D6-B43C2CDF231D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFA2693-8383-4F54-B0D6-B43C2CDF231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFA2693-8383-4F54-B0D6-B43C2CDF231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFA2693-8383-4F54-B0D6-B43C2CDF231D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

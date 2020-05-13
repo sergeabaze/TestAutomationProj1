@@ -125,12 +125,14 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="InvalideLoginSteps.cs" />
+    <Compile Include="OnLigneShoppingUserRegistrationSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpecFlowFeature1Steps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="InvalideLogin.feature" />
+    <None Include="OnLigneShoppingUserRegistration.feature" />
     <None Include="packages.config" />
     <None Include="SpecFlowFeature1.feature" />
   </ItemGroup>
